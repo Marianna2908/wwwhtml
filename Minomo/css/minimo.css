@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Inconsolata;
+}
+body{
+    font-family: 'playfayr-display' ,sans-serif;
+    font-size: 14px;
+    color: rgba(151,151,151,1);
+    width: 1067px;
+    /*background: palevioletred;*/
+    margin: 0 auto;
+}
+.d-flex{ /* klassen die gebruikt worden*/
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.align-items-center{
+    align-items:center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.w-25{
+    width:25%;
+}
+.w-50{
+    width:50%;
+}
+.w-75{
+    width:75%;
+}
+.w-100{
+    width:100%;
+}
+#navbar {
+    padding-top: 05px;
+    padding-bottom: 40px;
+}
+#brandname{
+    font-family: 'inconsolata', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    color: rgba(0,0,0,1);
+}
+nav{
+
+}
+nav ul li{
+    padding-right: 70px;
+    list-style: none;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: #6C6C6C;
+
+}
+nav ul li a{
+
+    padding-left:0px;
+    padding-right:0px;
+
+}
+nav ul li a:hover {
+    border-bottom: 3px solid #6C6C6C;
+    padding: 15px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#header h1{
+    font-family: Ubuntu-Light;
+    font-size: 0.1rem;
+    width: 150px;
+}
+#header h2{
+    font-family: "Playfair Display";
+}
+#content{
+    width:900px;
+    margin:0 auto;
+}
+#articles{
+    text-align: left;
+}
+#articles article{
+    width: 430px;
+}
+#newsletter{
+    background:#f0f0f0;
+    font-family: "Playfair Display";
+    width: 1067px;
+    height: 220px;
+    text-align: center;
+    font-size:1.9rem ;
+    color: #333333;
+}
+#mail{
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+input[type=email]{
+    border: none;
+    width: 400px;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 2px solid black;
+}
+#articles2{
+    text-align: left;
+}
+#articles2 article{
+    width: 430px;
+    justify-content: space-between;
+}
+#button{
+    text-align: center;
+    padding:12px 16px;
+    font-family: playfayr-display;
+    font-size: 0.5rem;
+    font-weight:300;
+    color:rgba(255,255,255,1);
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    margin-left:10px;
+    background:none;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-right: 21px;
+    padding-right: 21px;
+    margin: 10px;
+
+}
+footer{
+    background: #f0f0f0;
+    font-family: playfayr-display;
+    font-size: 14px;
+    padding-right: 150px;
+}
+#terms{
+    font-family: playfayr-display;
+    color: black;
+    padding-right: 24px;
+
+}

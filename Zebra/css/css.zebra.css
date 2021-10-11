@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Helvetica;
+}
+body{
+    font-family: 'helvetica' ,sans-serif;
+    font-size: 19px;
+    width: 1920px;
+}
+
+.d-flex{ /* klassen die gebruikt worden*/
+    display:flex;
+}
+.flex-column{
+    flex-direction:column;
+}
+.flex-row{
+    flex-direction:row;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-center{
+    justify-content:center;
+}
+.justify-content-end{
+    justify-content:flex-end;
+}
+.justify-content-between{
+    justify-content:space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.align-items-center{
+    align-items:center;
+}
+.flex-wrap{
+    flex-wrap:wrap;
+}
+.w-25{
+    width:25%;
+}
+.w-50{
+    width:50%;
+}
+.w-75{
+    width:75%;
+}
+.w-100{
+    width:100%;
+}
+#navbar{
+    background:rgba(229,229,229,0.5);
+
+}
+#headerhero{
+    background: linear-gradient(to right, rgba(6, 181, 169, 0.38), rgba(6, 181, 169, 0.38)), url('../images/zebra.png') no-repeat;
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 600px;
+
+
+}
+#navwrapper {
+    width: 1920px;
+    justify-content: center;
+}
+#navbar {
+    justify-content: right;
+    padding: 0px;
+
+}
+
+nav{
+    background: rgba(229,229,229,0.85);
+
+
+}
+nav ul li{
+    padding-right: 70px;
+    list-style: none;
+    justify-content: right;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.5);
+    padding-left:0px;
+    padding-right:0px;
+
+}
+nav ul li a:hover {
+    border-bottom: 3px solid ;
+    padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#centje{
+    font-family: Helvetica;
+    color: rgba(0,0,0,0.5);
+
+}
+#korting{
+    position: relative
+
+}
+#eerste{
+    position: absolute;
+}
