@@ -1,0 +1,38 @@
+/* nieuwe stijles aanmaken om je pagina te stijlen!!!!*/
+@font-face {
+    font-family: sagoewplight;
+    src: url('../webfonts/MYRIADPRO-REGULAR.woff');
+}
+@font-face {
+    font-family: sagoewplight;
+    src: url('../webfonts/segoe-wp-light.ttf')
+}
+body{
+    font-family: sagoewplight;
+    font-size:1rem;
+    color: #909090;
+}
+
+.carousel-caption{ /* de positionerint in % doordat er mobile aan te pas komt om correct te scareln*/
+    bottom: 20%;
+    left: 50%;
+    right: 0%;
+    text-align: left;
+}
+.carousel-caption h2{
+    font-size: 2.62rem;
+}
+.carousel-caption p {
+    font-size: 1.62rem;
+
+}
+.carousel-caption  a{
+    background: #5094f2;
+    color: #FFFFFF;
+    font-size: 1.39rem;
+}
+#fullArticle{
+    margin-top:3.9rem;
+    margin-bottom:3.9rem;
+
+}

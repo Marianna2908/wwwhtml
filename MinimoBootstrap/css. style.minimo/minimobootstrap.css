@@ -1,0 +1,29 @@
+@font-face {
+    font-family: segoewplight;
+    src: url('../webfonts/segoe-wp-light.ttf');
+}
+
+body{
+    font-family:'myriad','sans-serif';
+    font-size:15.35px;
+    color: rgba(151,151,151,1);
+    width:1250px;
+    margin: 0 auto;
+}
+/*#email{*/
+/*    background-color: #f0f0f0;*/
+/*    color: grey;*/
+/*}*/
+/*#mail{*/
+/*    border: none;*/
+/*}*/
+#foot {
+    color: #2c2c2c;
+    background-color: #f0f0f0;
+
+
+}
+#foot a {
+    text-decoration:none;
+    font-weight: bold;
+}
