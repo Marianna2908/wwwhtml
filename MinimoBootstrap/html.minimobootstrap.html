@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="container-fluid">
+<header class="container-fluid fixed-top bg-light  border-dark col-8 offset-2">
     <div class="row">
         <div class="col-12">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -118,14 +118,14 @@
         </section>
     </section>
     <section>
-        <article id="email py-5 my-5 bg-grey">
+        <article id="email">
             <div class="row">
                 <div class="col-12 text-center">
                     <div id="newsletter" class="align-items-center">
                         <h3>Sign up for our newsletter!</h3>
                         <div id="mail" class=" justify-content-center">
-                            <button>
-                                <input placeholder="Enter a valid email address" >
+                            <button class="border-bottom-0 border-start-0 border-top-0 border-end-0">
+                                <input type=email placeholder="Enter a valid email address" class="border-0">
                                 <img height="17" src="images/mailicon.png"
                                      width="32"/>
                             </button>

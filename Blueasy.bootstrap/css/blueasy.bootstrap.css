@@ -1,0 +1,10 @@
+@font-face {
+    font-family: segoeui;
+    src: url('../assets/fonts/Segoe UI.woff');
+
+}
+body {
+    font-family: sagoewplight;
+    font-size: 1rem;
+    color: #909090;
+}

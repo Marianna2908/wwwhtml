@@ -10,17 +10,20 @@ body{
     width:1250px;
     margin: 0 auto;
 }
-/*#email{*/
-/*    background-color: #f0f0f0;*/
-/*    color: grey;*/
-/*}*/
-/*#mail{*/
-/*    border: none;*/
-/*}*/
+#newsletter input[type=email]{
+    background-color: #f0f0f0;
+    color: grey;
+
+}
+#email{
+    background-color: #f0f0f0;
+    padding: 3rem;
+
+
+}
 #foot {
     color: #2c2c2c;
     background-color: #f0f0f0;
-
 
 }
 #foot a {
