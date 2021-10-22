@@ -22,7 +22,7 @@ ul{
     text-align: center;
     font-size:16px;
     cursor:pointer;
-    border-radius: 0;
+    border-radius: 0;;
 }
 .addBtn:hover{
     background-color: #bbb;

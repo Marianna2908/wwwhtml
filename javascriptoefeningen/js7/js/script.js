@@ -1,17 +1,10 @@
-document.writeln("Hallo iedereen");
-document.writeln("Klaar?");
+var source = document.getElementById("source");
 
-/** ESCAPE CARAKTRS
- * single quote: \'
- * double quote: \"
- * tabulator: \t
- * nieuwe regel \n
- * backspace \b
- * backslash\\
- */
+var innerHtmlOutput = document.getElementById("innerHtmlOutput");
+var innerTextOutput= document.getElementById("innerTextOutput") ;
+var txtContentOutput = document.getElementById("txtContentOutput")
 
-document.write("\t\t Hello\n wereld!\n");
-document.writeln("\"HAlloo iedereeen, welkom.\"\n");
-document.writeln("Smiley face: \&#128515;\n");
-
+innerHtmlOutput.value = source.innerHTML;
+txtContentOutput.value = source.innerText
+innerTextOutput.value = source.innerText;
 

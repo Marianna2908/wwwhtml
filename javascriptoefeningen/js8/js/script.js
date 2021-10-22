@@ -1,10 +1,4 @@
-var source = document.getElementById("source");
+var alleBMW = document.querySelectorAll(".bmw");
+var resultaat = "document.getElementsBClassName('bmw')";
 
-var innerHtmlOutput = document.getElementById("innerHtmlOutput");
-var innerTextOutput= document.getElementById("innerTextOutput") ;
-var txtContentOutput = document.getElementById("txtContentOutput")
-
-innerHtmlOutput.value = source.innerHTML;
-txtContentOutput.value = source.innerText
-innerTextOutput.value = source.innerText;
-
+document.getElementById("resultArea").value = resultaat;

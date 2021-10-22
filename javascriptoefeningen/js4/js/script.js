@@ -1,3 +1,1 @@
-// alert(document.body.innerHTML); /*targettn van een tag*/
-alert(document.documentElement.innerHTML); /* alles vanuit volledige html documnt gebruikt*/
-
+document.getElementById("p02").innerHTML=document.getElementById("h101").firstChild.nodeValue;

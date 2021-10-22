@@ -1,0 +1,20 @@
+.loader{
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite; /* de seconden dat het moet draaien, en hoe het moet draaien en hoelang */
+    /* je moet het zien als een film, lijk een oude film, fragment per fragment, key frames:*/
+}
+/* toevoegen van een keyframe met @*/
+@keyframes spin { /* spin komt van de naam van je animation die spin noemt, mag ook elk andere naam zijn die je wil*/
+    /* op elk percentage kan je iets doen, dius van  naar100*/
+    0%{transform: rotate(0deg);} /* roteren van je graden, van 0 tot 360*/
+    25%{ border-top: 16px solid green ;}
+    50%{ border-top: 16px solid yellow ;}
+    50%{ border-top: 16px solid yellow ;}
+    75%{ border-top: 16px solid red ;}
+    75%{ border-top: 16px solid red ;}
+    100% {transform:rotate(360deg); } /* rotatie van je spinner om een volledige cirkel te maken*/
+} /* met de percentages verander je de kleur van je loader. loader is 100% en je past de kleur aan per percentage*/
